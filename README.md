@@ -36,7 +36,14 @@ The code was developed by
 This code is based on the paper 
 
 A. Shahmansoori, G. E. Garcia, G. Destino, G. Seco-Granados and H. Wymeersch, "Position and Orientation Estimation Through Millimeter-Wave MIMO in 5G Systems," in *IEEE Transactions on Wireless Communications*, vol. 17, no. 3, pp. 1822-1835, March 2018.
-
+```
+@ARTICLE{ShaGarDesSecWym:18,
+author={A. Shahmansoori and G. E. Garcia and G. Destino and G. Seco-Granados and H. Wymeersch}, 
+journal={IEEE Transactions on Wireless Communications}, 
+title={Position and Orientation Estimation Through Millimeter-Wave MIMO in 5G Systems},
+year={2018}, volume={17}, number={3}, pages={1822-1835}, 
+doi={10.1109/TWC.2017.2785788}, ISSN={1536-1276}, month={March}}
+```
 
 ## License
 
