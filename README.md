@@ -4,6 +4,11 @@ This is a demonstration of 5G mmWave positioning
 ## Summary
 The matlab code (main.m) generates a 2D environment with random scatterers and line-of-sight (LOS) between a transmittee (at a fixed location) and a receiver (with unknown location and orientation). Both the transmitter and receiver are equipped with uniform linear arrays (for the transmitter the ULA is aligned with the vertical axis). The transmitter sends a sequence of beams, with associated precoders, to the receiver. At the receiver, the time-of-arrival (TOA), angle-of-arrival (AOA), and angle-of-departure (AOD) are estimated using distributed compressed sensing (DCSSOMP.m) in the beamspace domain. The LOS parameters are then utilized to recover the receiver's location and orientation. 
 
+
+![scenario](figs/scenario.png)
+
+*This figure shows the scenario with a single scattering point. *
+
 ## Main parameters
 The parameters that can be set by the user are 
 ```
