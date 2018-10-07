@@ -7,7 +7,7 @@ The matlab code (main.m) generates a 2D environment with random scatterers and l
 
 ![scenario](figs/scenario.png)
 
-*This figure shows the scenario with a single scattering point. *
+*This figure shows the scenario with a single scattering point.*
 
 ## Main parameters
 The parameters that can be set by the user are 
