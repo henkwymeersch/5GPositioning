@@ -67,7 +67,7 @@ xlabel('AOD'); ylabel('AOA');
 
 %% Generate the observation and beamformers
 y=zeros(Nr,Ns,N);
-F=zeros(Nt,Ns);
+F=zeros(Nt,Ns,N);
 for k=1:Ns    
     for n=1:N        
         F(:,k,n)=exp(1j*rand(Nt,1)*2*pi);                                           % random beamformers (note: we don't add data symbols, they are part of F)
