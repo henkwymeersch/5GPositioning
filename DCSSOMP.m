@@ -1,6 +1,6 @@
 function [indices,h]=DCSSOMP(Y,A,L)
 % This function implements the paper
-% Sarvotham, S., Baron, D., Wakin, M., Duarte, M. F., & Baraniuk, R. G. (2005, November). 
+% Duarte, M. F., Sarvotham, S., Baron, D., Wakin, M., & Baraniuk, R. G. (2005, November). 
 % "Distributed compressed sensing of jointly sparse signals." 
 % In Asilomar conference on signals, systems, and computers (pp. 1537-1541)
 % (numbering refers to numbers in the paper, section IV.B)
